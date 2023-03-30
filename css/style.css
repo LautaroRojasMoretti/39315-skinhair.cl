@@ -1,0 +1,233 @@
+/* 
+font-family: 'Milonga', cursive; 
+font-family: 'Londrina Solid', cursive;
+font-family: 'Londrina Solid', cursive;
+
+Name: indent-rainbow
+Id: oderwat.indent-rainbow
+Description: Makes indentation easier to read
+Version: 8.3.1
+Publisher: oderwat
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(../Assets/img/Background.jpg);
+    object-fit: cover;
+    width: 100%;
+    height: min-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/************************************************ header ********************************************************/
+header{
+    background-color: #6155A6;
+}
+h1{
+    color: #FFABE1;
+    text-align: center;
+    letter-spacing: 70px;
+    font-family: 'Milonga', cursive;
+    font-size: 45px;
+}
+h1 a{
+    text-decoration: none;
+    color: #FFABE1;
+}
+header{
+    background-color: #6155A6;
+}
+.navbar{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-family: 'Londrina Solid', cursive;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.navbar li a{
+    display: flex;
+    text-decoration: none;
+    color:#FFABE1;
+    font-size: 25px;
+    justify-content: center;
+}
+.index-sup{
+    color: #6155A6;
+    height: 100px;
+}
+.index-main{
+    height: 500px;
+}
+.titulo-index {
+    display: grid;
+    place-items: center;
+    height: 200px;
+    text-shadow: 10px 10px 5px grey;
+}
+
+/**************************************************** main ********************************************************/
+.promociones-cremas{
+    display: flex;
+    justify-content: space-evenly;
+}
+.promociones-cremas img{
+    width: 100%;
+    height: 500px;
+}
+.promociones{
+    color: #6155A6;
+    font-family: 'Londrina Solid', cursive;
+}
+.img-promo{
+    display: flex;
+}
+.Noticias h2{
+    color: #6155A6;
+    font-family: 'Londrina Solid', cursive;
+}
+.cards{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.53);
+}
+.cards img{
+    height: 200px;
+}
+.cards p{
+    color: #FFE3E1;
+    font-family: 'Londrina Solid', cursive;
+}
+.cards h3{
+    color: #FFE3E1;
+    font-family: 'Londrina Solid', cursive;
+}
+.navbar1 li{
+    display: flex;
+    list-style: none;
+    font-family: 'Londrina Solid', cursive;
+    justify-content: center;
+    text-decoration: none;
+}
+.navbar1 li a{
+    display: flex;
+    text-decoration: none;
+    color:#FFABE1;
+    font-size: 40px;
+}
+.cards1{
+    display: flex;
+    justify-content: space-between;
+}
+.cards1 img{
+    justify-content: center;
+    display: flex;
+    height: 200px;
+}
+.main-tienda{
+    height: min-content;
+}
+.navbar-tienda{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-family: 'Londrina Solid', cursive;
+    justify-content: center;
+    justify-content: space-between;
+}
+.navbar-tienda li{
+    display: flex;
+    list-style: none;
+    font-family: 'Londrina Solid', cursive;
+    justify-content: center;
+    text-decoration: none;
+}
+.navbar-tienda li a{
+    display: flex;
+    text-decoration: none;
+    color:#FFE3E1;
+    font-size: 20px;
+    justify-content: center;
+}
+.news{
+    display: flex;
+    color: rgba(128, 128, 128, 0.326);
+}
+.div-tienda{
+    background-color: rgba(128, 128, 128, 0.575);
+}
+.div-tienda p{
+    color:#FFE3E1;
+    font-family: 'Londrina Solid', cursive;
+}
+.datita-info{
+    display: flex;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.53);
+}
+.datita-info img{
+    height: 200px;
+    border-radius: 75%;
+}
+.datita-info p{
+    color: #FFE3E1;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.video-datita{
+    display: flex;
+}
+.video-datita p{
+    color: #FFE3E1;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 20px;
+}
+iframe{
+    height: 200px;
+}
+/* nosotros */
+.redes-nosotros li{
+    display: flex;
+    list-style: none;
+    font-family: 'Londrina Solid', cursive;
+    justify-content: center;
+    text-decoration: none;
+}
+.navbar-nosotros li a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color:#FFABE1;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px rgba(128, 128, 128, 0.455);
+}
+/*******************************************footer**************************************************************/
+footer{
+    background-color: #6155A6;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    color: #6155A6;
+}
+.redes-sociales{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #FFABE1;
+}
+
+.redes-sociales li a{
+    text-decoration: none;
+}
+.by{
+    text-align: start;
+    margin-right: 15px;
+}
+/* 1:17 */

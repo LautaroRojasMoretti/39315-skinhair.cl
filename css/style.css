@@ -661,6 +661,7 @@ main {
   .container-grid {
     width: 100% auto;
     height: 100% auto;
+    height: 100vh;
     display: grid;
     grid-template: 0.5fr 1fr 1fr/repeat(3, 1fr);
     grid-template-areas: "item0 item0 item0" "item1 item2 item3" "item4 item5 item6"; }
@@ -760,7 +761,8 @@ main {
   /*********Datita***********/
   .main-datita {
     display: flex;
-    flex-flow: row wrap; }
+    flex-flow: row wrap;
+    height: 100vh; }
     .main-datita .h2-datita {
       width: 100%;
       display: flex;
@@ -1168,9 +1170,9 @@ main {
   /*********Tienda*********/
   .container-grid {
     width: 100% auto;
-    height: 100% auto;
+    height: 100vh;
     display: flex;
-    flex-flow: row wrap; }
+    flex-flow: column wrap; }
     .container-grid .item0 {
       background-color: rgba(0, 0, 0, 0.376);
       height: 20px; }
@@ -1200,7 +1202,8 @@ main {
   /*********Datita***********/
   .main-datita {
     display: flex;
-    flex-flow: row wrap; }
+    flex-flow: row wrap;
+    height: 100vh; }
     .main-datita .datita-info {
       display: flex;
       flex-flow: column wrap;
@@ -1612,7 +1615,7 @@ main {
   /*********Tienda*********/
   .container-grid {
     width: 100% auto;
-    height: 100% auto;
+    height: 100vh;
     display: flex;
     flex-flow: row wrap; }
     .container-grid .item0 {
@@ -1649,7 +1652,8 @@ main {
   /*********Datita***********/
   .main-datita {
     display: flex;
-    flex-flow: row wrap; }
+    flex-flow: row wrap;
+    height: 100vh; }
     .main-datita .datita-info {
       display: flex;
       flex-flow: column wrap;

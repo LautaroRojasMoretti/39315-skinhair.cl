@@ -57,7 +57,6 @@
         object-fit: cover;
         width: 100% auto;
         height: 100vh;
-        height: min-content;
         background-size: cover;
         background-repeat: no-repeat;
         flex-flow: row wrap;
@@ -122,6 +121,7 @@
     .container-grid {
         width: 100% auto;
         height: 100% auto;
+        height: 100vh;
         display: grid;
         grid-template: 0.5fr 1fr 1fr / repeat(3, 1fr);
         grid-template-areas:
@@ -262,6 +262,7 @@
 .main-datita{
     display: flex;
     flex-flow: row wrap;
+    height: 100vh;
     .h2-datita{
         width: 100%;
         display: flex;

@@ -52,7 +52,6 @@
         object-fit: cover;
         width: 100%;
         height: 100vh;
-        height: min-content;
         background-size: cover;
         background-repeat: no-repeat;
         flex-flow: row wrap;
@@ -111,7 +110,7 @@
 /*********Tienda*********/
 .container-grid {
     width: 100% auto;
-    height: 100% auto;
+    height: 100vh;
     display: flex;
     flex-flow: row wrap;
 
@@ -159,6 +158,7 @@
 .main-datita{
     display: flex;
     flex-flow: row wrap;
+    height: 100vh;
     .datita-info {
         display: flex;
         flex-flow: column wrap;

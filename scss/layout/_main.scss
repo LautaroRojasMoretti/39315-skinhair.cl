@@ -3,7 +3,6 @@ main {
     object-fit: cover;
     width: 100%;
     height: 100vh;
-    height: min-content;
     background-size: cover;
     background-repeat: no-repeat;
     flex-flow: row wrap;
@@ -14,7 +13,7 @@ main {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-
+    
     .titulo-index {
         display: grid;
         grid-template: repeat (2, 1fr) / 1fr;

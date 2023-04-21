@@ -81,7 +81,8 @@ main {
   height: 100vh;
   display: flex;
   flex-flow: column wrap;
-  align-items: center; }
+  align-items: center;
+  /*Animation*/ }
   .index-main .titulo-index {
     display: grid;
     grid-template: repeat 2, 1fr/1fr;
@@ -110,6 +111,31 @@ main {
       text-decoration: none;
       color: #F0A500;
       font-size: 4rem; }
+  .index-main .line {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); }
+  .index-main .anim-typewriter {
+    animation: typewriter 4s steps(23) 1s 1 normal both, blinkTextCursor 500ms steps(23) infinite normal; }
+
+@keyframes typewriter {
+  from {
+    width: 0; }
+  to {
+    width: 16em; } }
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75); }
+  to {
+    border-right-color: transparent; } }
 
 .redes-nosotros {
   display: flex;
@@ -361,7 +387,8 @@ main {
   height: 100vh;
   display: flex;
   flex-flow: column wrap;
-  align-items: center; }
+  align-items: center;
+  /*Animation*/ }
   .index-main .titulo-index {
     display: grid;
     grid-template: repeat 2, 1fr/1fr;
@@ -390,6 +417,31 @@ main {
       text-decoration: none;
       color: #F0A500;
       font-size: 4rem; }
+  .index-main .line {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); }
+  .index-main .anim-typewriter {
+    animation: typewriter 4s steps(23) 1s 1 normal both, blinkTextCursor 500ms steps(23) infinite normal; }
+
+@keyframes typewriter {
+  from {
+    width: 0; }
+  to {
+    width: 16em; } }
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75); }
+  to {
+    border-right-color: transparent; } }
 
 .redes-nosotros {
   display: flex;
@@ -873,7 +925,8 @@ main {
   height: 100vh;
   display: flex;
   flex-flow: column wrap;
-  align-items: center; }
+  align-items: center;
+  /*Animation*/ }
   .index-main .titulo-index {
     display: grid;
     grid-template: repeat 2, 1fr/1fr;
@@ -902,6 +955,31 @@ main {
       text-decoration: none;
       color: #F0A500;
       font-size: 4rem; }
+  .index-main .line {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); }
+  .index-main .anim-typewriter {
+    animation: typewriter 4s steps(23) 1s 1 normal both, blinkTextCursor 500ms steps(23) infinite normal; }
+
+@keyframes typewriter {
+  from {
+    width: 0; }
+  to {
+    width: 16em; } }
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75); }
+  to {
+    border-right-color: transparent; } }
 
 .redes-nosotros {
   display: flex;
@@ -1318,7 +1396,8 @@ main {
   height: 100vh;
   display: flex;
   flex-flow: column wrap;
-  align-items: center; }
+  align-items: center;
+  /*Animation*/ }
   .index-main .titulo-index {
     display: grid;
     grid-template: repeat 2, 1fr/1fr;
@@ -1347,6 +1426,31 @@ main {
       text-decoration: none;
       color: #F0A500;
       font-size: 4rem; }
+  .index-main .line {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); }
+  .index-main .anim-typewriter {
+    animation: typewriter 4s steps(23) 1s 1 normal both, blinkTextCursor 500ms steps(23) infinite normal; }
+
+@keyframes typewriter {
+  from {
+    width: 0; }
+  to {
+    width: 16em; } }
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75); }
+  to {
+    border-right-color: transparent; } }
 
 .redes-nosotros {
   display: flex;
@@ -1768,7 +1872,8 @@ main {
   height: 100vh;
   display: flex;
   flex-flow: column wrap;
-  align-items: center; }
+  align-items: center;
+  /*Animation*/ }
   .index-main .titulo-index {
     display: grid;
     grid-template: repeat 2, 1fr/1fr;
@@ -1797,6 +1902,31 @@ main {
       text-decoration: none;
       color: #F0A500;
       font-size: 4rem; }
+  .index-main .line {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); }
+  .index-main .anim-typewriter {
+    animation: typewriter 4s steps(23) 1s 1 normal both, blinkTextCursor 500ms steps(23) infinite normal; }
+
+@keyframes typewriter {
+  from {
+    width: 0; }
+  to {
+    width: 16em; } }
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75); }
+  to {
+    border-right-color: transparent; } }
 
 .redes-nosotros {
   display: flex;

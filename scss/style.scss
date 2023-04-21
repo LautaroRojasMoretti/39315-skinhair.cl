@@ -12,6 +12,8 @@ Publisher: oderwat
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
 */
 
+@import "./utilities/mixins";
+@import "./utilities/variables";
 @import "./base/reset";
 @import "./layout/footer";
 @import "./layout/header";

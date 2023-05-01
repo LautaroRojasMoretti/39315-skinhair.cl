@@ -217,6 +217,65 @@
         }
     }
 }
+.main-news{
+    height: max-content;
+    width: 100%;
+    .promociones {
+        color:#F0A500;
+        font-family: 'Londrina Solid', cursive;
+    }
+    .carousel{
+        .carousel-inner{
+            .carousel-item{
+                img{
+                height: rem;
+            }
+            }
+        }
+    }
+    .Noticias{
+        h2 {
+        color:#F0A500;
+        font-family: 'Londrina Solid', cursive;
+    }
+    }
+    .news{
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        .cards {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            .img-hombre-crema{
+                width: 65rem;
+                height: 42rem;
+                margin: 2.0rem;
+            }
+            .img-mujer-mascarilla{
+                width: 50rem;
+                height: 50rem;
+                margin: 2.0rem;
+            }
+            .img-mujer-pelo-color{
+                width: 60rem;
+                height: 35rem;
+                margin: 2.0rem;
+            }
+            h2 {
+                color: #F0A500;
+                font-family: 'Londrina Solid', cursive;
+                font-size: 30px;
+            }
+            p {
+                color: #F0A500;
+                font-family: 'Londrina Solid', cursive;
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
 
 /*********footer********/
     footer {

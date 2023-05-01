@@ -13,7 +13,6 @@ main {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    
     .titulo-index {
         display: grid;
         grid-template: repeat (2, 1fr) / 1fr;
@@ -21,17 +20,17 @@ main {
             "h1-grid"
             " . "
         ;
-
         .h1-grid {
+            margin-top: 10rem;
             grid-area: h1-grid;
-            font-size: 4.0rem;
+            font-size: 6.0rem;
             color: #F0A500;
             text-align: center;
             font-family: 'Milonga', cursive;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            letter-spacing: 2.5rem;
+            letter-spacing: 4.0rem;
 
             a {
                 text-decoration: none;
@@ -57,7 +56,7 @@ main {
     }
     .line {
         position: relative;
-        top: 50%;
+        top: 25%;
         width: 16em;
         margin: 0 auto;
         border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -65,7 +64,12 @@ main {
         text-align: center;
         white-space: nowrap;
         overflow: hidden;transform: translateY(-50%);
+        font-family: 'Londrina Solid', cursive;
+        font-size: 2.0rem;
+        color: #F0A500;
+        background-color: rgba(0, 0, 0, 0.329);
         }
+
 /*Animation*/
 .anim-typewriter {
     animation: typewriter 4s steps(23) 1s 1 normal both,

@@ -88,15 +88,16 @@ main {
     grid-template: repeat 2, 1fr/1fr;
     grid-template-areas: "h1-grid" " . "; }
     .index-main .titulo-index .h1-grid {
+      margin-top: 10rem;
       grid-area: h1-grid;
-      font-size: 4.0rem;
+      font-size: 6.0rem;
       color: #F0A500;
       text-align: center;
       font-family: 'Milonga', cursive;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      letter-spacing: 2.5rem; }
+      letter-spacing: 4.0rem; }
       .index-main .titulo-index .h1-grid a {
         text-decoration: none;
         color: #F0A500; }
@@ -113,7 +114,7 @@ main {
       font-size: 4rem; }
   .index-main .line {
     position: relative;
-    top: 50%;
+    top: 25%;
     width: 16em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -121,7 +122,11 @@ main {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2.0rem;
+    color: #F0A500;
+    background-color: rgba(0, 0, 0, 0.329); }
   .index-main .anim-typewriter {
     animation: typewriter 4s steps(23) 1s 1 normal both, blinkTextCursor 500ms steps(23) infinite normal; }
 
@@ -287,7 +292,7 @@ main {
       font-size: 1.5rem; }
 
 .main-news {
-  height: 100% auto;
+  height: 100vh auto;
   width: 100%; }
   .main-news .promociones {
     color: #F0A500;
@@ -394,15 +399,16 @@ main {
     grid-template: repeat 2, 1fr/1fr;
     grid-template-areas: "h1-grid" " . "; }
     .index-main .titulo-index .h1-grid {
+      margin-top: 10rem;
       grid-area: h1-grid;
-      font-size: 4.0rem;
+      font-size: 6.0rem;
       color: #F0A500;
       text-align: center;
       font-family: 'Milonga', cursive;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      letter-spacing: 2.5rem; }
+      letter-spacing: 4.0rem; }
       .index-main .titulo-index .h1-grid a {
         text-decoration: none;
         color: #F0A500; }
@@ -419,7 +425,7 @@ main {
       font-size: 4rem; }
   .index-main .line {
     position: relative;
-    top: 50%;
+    top: 25%;
     width: 16em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -427,7 +433,11 @@ main {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2.0rem;
+    color: #F0A500;
+    background-color: rgba(0, 0, 0, 0.329); }
   .index-main .anim-typewriter {
     animation: typewriter 4s steps(23) 1s 1 normal both, blinkTextCursor 500ms steps(23) infinite normal; }
 
@@ -593,7 +603,7 @@ main {
       font-size: 1.5rem; }
 
 .main-news {
-  height: 100% auto;
+  height: 100vh auto;
   width: 100%; }
   .main-news .promociones {
     color: #F0A500;
@@ -903,15 +913,16 @@ main {
     grid-template: repeat 2, 1fr/1fr;
     grid-template-areas: "h1-grid" " . "; }
     .index-main .titulo-index .h1-grid {
+      margin-top: 10rem;
       grid-area: h1-grid;
-      font-size: 4.0rem;
+      font-size: 6.0rem;
       color: #F0A500;
       text-align: center;
       font-family: 'Milonga', cursive;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      letter-spacing: 2.5rem; }
+      letter-spacing: 4.0rem; }
       .index-main .titulo-index .h1-grid a {
         text-decoration: none;
         color: #F0A500; }
@@ -928,7 +939,7 @@ main {
       font-size: 4rem; }
   .index-main .line {
     position: relative;
-    top: 50%;
+    top: 25%;
     width: 16em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -936,7 +947,11 @@ main {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2.0rem;
+    color: #F0A500;
+    background-color: rgba(0, 0, 0, 0.329); }
   .index-main .anim-typewriter {
     animation: typewriter 4s steps(23) 1s 1 normal both, blinkTextCursor 500ms steps(23) infinite normal; }
 
@@ -1102,7 +1117,7 @@ main {
       font-size: 1.5rem; }
 
 .main-news {
-  height: 100% auto;
+  height: 100vh auto;
   width: 100%; }
   .main-news .promociones {
     color: #F0A500;
@@ -1419,15 +1434,16 @@ main {
     grid-template: repeat 2, 1fr/1fr;
     grid-template-areas: "h1-grid" " . "; }
     .index-main .titulo-index .h1-grid {
+      margin-top: 10rem;
       grid-area: h1-grid;
-      font-size: 4.0rem;
+      font-size: 6.0rem;
       color: #F0A500;
       text-align: center;
       font-family: 'Milonga', cursive;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      letter-spacing: 2.5rem; }
+      letter-spacing: 4.0rem; }
       .index-main .titulo-index .h1-grid a {
         text-decoration: none;
         color: #F0A500; }
@@ -1444,7 +1460,7 @@ main {
       font-size: 4rem; }
   .index-main .line {
     position: relative;
-    top: 50%;
+    top: 25%;
     width: 16em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -1452,7 +1468,11 @@ main {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2.0rem;
+    color: #F0A500;
+    background-color: rgba(0, 0, 0, 0.329); }
   .index-main .anim-typewriter {
     animation: typewriter 4s steps(23) 1s 1 normal both, blinkTextCursor 500ms steps(23) infinite normal; }
 
@@ -1618,7 +1638,7 @@ main {
       font-size: 1.5rem; }
 
 .main-news {
-  height: 100% auto;
+  height: 100vh auto;
   width: 100%; }
   .main-news .promociones {
     color: #F0A500;
@@ -1998,15 +2018,16 @@ main {
     grid-template: repeat 2, 1fr/1fr;
     grid-template-areas: "h1-grid" " . "; }
     .index-main .titulo-index .h1-grid {
+      margin-top: 10rem;
       grid-area: h1-grid;
-      font-size: 4.0rem;
+      font-size: 6.0rem;
       color: #F0A500;
       text-align: center;
       font-family: 'Milonga', cursive;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      letter-spacing: 2.5rem; }
+      letter-spacing: 4.0rem; }
       .index-main .titulo-index .h1-grid a {
         text-decoration: none;
         color: #F0A500; }
@@ -2023,7 +2044,7 @@ main {
       font-size: 4rem; }
   .index-main .line {
     position: relative;
-    top: 50%;
+    top: 25%;
     width: 16em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -2031,7 +2052,11 @@ main {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2.0rem;
+    color: #F0A500;
+    background-color: rgba(0, 0, 0, 0.329); }
   .index-main .anim-typewriter {
     animation: typewriter 4s steps(23) 1s 1 normal both, blinkTextCursor 500ms steps(23) infinite normal; }
 
@@ -2197,7 +2222,7 @@ main {
       font-size: 1.5rem; }
 
 .main-news {
-  height: 100% auto;
+  height: 100vh auto;
   width: 100%; }
   .main-news .promociones {
     color: #F0A500;

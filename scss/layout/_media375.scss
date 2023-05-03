@@ -122,15 +122,12 @@
         flex-flow: row wrap;
 
         .item0 {
-            background-color: rgba(0, 0, 0, 0.376);
-            height: 20px;
-
+            background-color: rgba(219, 0, 0, 0.376);
             .navbar-tienda {
                 gap: 2rem;
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: space-between;
-
                 li {
                     list-style: none;
                     font-family: 'Londrina Solid', cursive;

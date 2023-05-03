@@ -231,7 +231,7 @@
     .main-datita {
         display: flex;
         flex-flow: row wrap;
-        height: 100vh auto;
+        height: max-content;
 
         .datita-info {
             display: flex;

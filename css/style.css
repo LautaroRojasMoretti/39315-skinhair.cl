@@ -165,7 +165,7 @@ main {
 
 .container-grid {
   width: 100%;
-  height: 100vh auto;
+  height: 100vh;
   display: grid;
   grid-template: 0.5fr 1fr 1fr/repeat(3, 1fr);
   grid-template-areas: "item0 item0 item0" "item1 item2 item3" "item4 item5 item6";
@@ -476,7 +476,7 @@ main {
 
 .container-grid {
   width: 100%;
-  height: 100vh auto;
+  height: 100vh;
   display: grid;
   grid-template: 0.5fr 1fr 1fr/repeat(3, 1fr);
   grid-template-areas: "item0 item0 item0" "item1 item2 item3" "item4 item5 item6";
@@ -757,15 +757,14 @@ main {
           font-family: 'Londrina Solid', cursive; }
   /*********Tienda*********/
   .container-grid {
-    width: 100% auto;
+    width: 100%;
     height: 100vh;
     display: flex;
-    flex-flow: column wrap; }
+    flex-flow: row wrap; }
     .container-grid .item0 {
-      background-color: rgba(0, 0, 0, 0.376);
-      height: 1.0rem; }
+      background-color: rgba(241, 0, 0, 0.376); }
       .container-grid .item0 .navbar-tienda {
-        gap: 2rem;
+        gap: 0.5rem;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between; }
@@ -776,13 +775,13 @@ main {
           .container-grid .item0 .navbar-tienda li a {
             font-size: 1.5rem;
             text-decoration: none; }
-    .container-grid div {
+    .container-grid .item1 .item2 .item3 .item4 .item5 {
       background-color: rgba(0, 0, 0, 0.376);
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
       align-items: center; }
-      .container-grid div p {
+      .container-grid .item1 .item2 .item3 .item4 .item5 p {
         color: #F0A500;
         font-family: 'Londrina Solid', cursive;
         font-size: 1.5rem;
@@ -990,7 +989,7 @@ main {
 
 .container-grid {
   width: 100%;
-  height: 100vh auto;
+  height: 100vh;
   display: grid;
   grid-template: 0.5fr 1fr 1fr/repeat(3, 1fr);
   grid-template-areas: "item0 item0 item0" "item1 item2 item3" "item4 item5 item6";
@@ -1511,7 +1510,7 @@ main {
 
 .container-grid {
   width: 100%;
-  height: 100vh auto;
+  height: 100vh;
   display: grid;
   grid-template: 0.5fr 1fr 1fr/repeat(3, 1fr);
   grid-template-areas: "item0 item0 item0" "item1 item2 item3" "item4 item5 item6";
@@ -2095,7 +2094,7 @@ main {
 
 .container-grid {
   width: 100%;
-  height: 100vh auto;
+  height: 100vh;
   display: grid;
   grid-template: 0.5fr 1fr 1fr/repeat(3, 1fr);
   grid-template-areas: "item0 item0 item0" "item1 item2 item3" "item4 item5 item6";

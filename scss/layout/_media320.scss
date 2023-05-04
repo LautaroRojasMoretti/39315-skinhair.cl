@@ -111,6 +111,23 @@
                     font-size: 2rem;
                 }
             }
+
+            .line {
+                position: relative;
+                top: 25%;
+                width: 16em;
+                margin: 0 auto;
+                border-right: 2px solid rgba(255, 255, 255, 0.75);
+                font-size: 180%;
+                text-align: center;
+                white-space: nowrap;
+                overflow: hidden;
+                transform: translateY(-50%);
+                font-family: 'Londrina Solid', cursive;
+                font-size: 2.0rem;
+                color: #F0A500;
+                background-color: rgba(0, 0, 0, 0.329);
+            }
         }
     }
 
@@ -176,7 +193,8 @@
 
                 p {
                     color: #F0A500;
-                    font-family: 'Londrina Solid', cursive;;
+                    font-family: 'Londrina Solid', cursive;
+                    ;
                 }
             }
         }
@@ -190,7 +208,9 @@
         flex-flow: row wrap;
 
         .item0 {
-            background-color: rgba(241, 0, 0, 0.376);;
+            background-color: rgba(241, 0, 0, 0.376);
+            ;
+
             .navbar-tienda {
                 gap: 0.5rem;
                 display: flex;
@@ -210,7 +230,7 @@
             }
         }
 
-        .item1 .item2 .item3 .item4 .item5{
+        .item1 .item2 .item3 .item4 .item5 {
             background-color: rgba(0, 0, 0, 0.376);
             display: flex;
             flex-flow: row wrap;
@@ -231,7 +251,7 @@
     .main-datita {
         display: flex;
         flex-flow: row wrap;
-        height: max-content;
+        height: 100%;
 
         .datita-info {
             display: flex;

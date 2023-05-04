@@ -3132,12 +3132,13 @@ main {
   /*********Noticias***************/
   .main-news {
     height: max-content;
-    width: 100%; }
+    width: 425px; }
     .main-news .promociones {
       color: #F0A500;
       font-family: 'Londrina Solid', cursive; }
     .main-news .carousel .carousel-inner .carousel-item img {
-      height: rem; }
+      height: 30rem;
+      width: 420px; }
     .main-news .Noticias h2 {
       color: #F0A500;
       font-family: 'Londrina Solid', cursive; }
@@ -3149,9 +3150,10 @@ main {
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        width: 400px; }
         .main-news .news .cards .img-hombre-crema {
-          width: 40rem;
+          width: 35rem;
           height: 21rem;
           margin: 1.0rem; }
         .main-news .news .cards .img-mujer-mascarilla {
@@ -3165,11 +3167,11 @@ main {
         .main-news .news .cards h2 {
           color: #F0A500;
           font-family: 'Londrina Solid', cursive;
-          font-size: 30px; }
+          font-size: 2.5rem; }
         .main-news .news .cards p {
           color: #F0A500;
           font-family: 'Londrina Solid', cursive;
-          font-size: 1.8rem; }
+          font-size: 1.5rem; }
   /*********footer********/
   footer {
     background-color: #000000;

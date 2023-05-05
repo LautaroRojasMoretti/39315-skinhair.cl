@@ -289,17 +289,17 @@
     .main-datita {
         display: flex;
         flex-flow: row wrap;
+        height: 100%;
 
-        .datita-info {
-            .h2-datita {
-                width: 100%;
-                background-color: rgba(0, 0, 0, 0.502);
+        .h2-datita {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.575);
 
-                h2 {
-                    color: #F0A500;
-                }
+            h2 {
+                color: #F0A500;
             }
-
+        }
+        .datita-info {
             display: flex;
             flex-flow: column wrap;
             align-items: center;
@@ -318,7 +318,6 @@
                 font-weight: lighter;
             }
         }
-
         .video-datita {
             display: flex;
             flex-flow: column wrap;
@@ -407,6 +406,36 @@
             }
         }
     }
+
+
+/**************Nosotros**********/
+.main-nosotros {
+    .redes-nosotros {
+        display: flex;
+        flex-flow: column wrap;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.502);
+
+        .item-nos {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+
+            img {
+                width: 7rem;
+                height: 7rem;
+            }
+
+            a {
+                font-family: 'Londrina Solid', cursive;
+                text-decoration: none;
+                color: #F0A500;
+                font-size: 2.5rem;
+                text-shadow: 0.5rem 0.5rem 0.5rem rgba(128, 128, 128, 0.455);
+            }
+        }
+    }
+}
 
     /*********footer********/
     footer {
